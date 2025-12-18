@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+<link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <custom-navbar></custom-navbar>
+    
+    <main class="max-w-6xl mx-auto px-4 py-12">
+        <!-- Hero Section -->
+        <section class="flex flex-col md:flex-row items-center justify-between gap-12 mb-20">
+            <div class="md:w-1/2">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 text-indigo-700"></h1>
+                <h2 class="text-3xl font-bold mb-6 text-indigo-700">Advogado Especializado</h2>
+<p class="text-lg mb-8 text-gray-600 leading-relaxed">
+                    Atuação profissional dedicada e personalizada nas áreas de Direito Civil, 
+                    Trabalhista e Previdenciário com mais de 15 anos de experiência.
+                </p>
+                <a href="#contato" class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300 inline-block">
+                    Entre em Contato
+                </a>
+            </div>
+            <div class="md:w-1/2">
+                <img src="http://static.photos/legal/1200x630/42" alt="Ricardo Bitencourt" class="rounded-lg shadow-xl w-full">
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="mb-20">
+            <h2 class="text-3xl font-bold text-center mb-12 text-indigo-700">Áreas de Atuação</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-indigo-600 mb-4">
+                        <i data-feather="briefcase" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Direito Trabalhista</h3>
+                    <p class="text-gray-600">
+                        Defesa dos direitos trabalhistas, rescisões, acidentes de trabalho e ações contra 
+                        empresas por irregularidades trabalhistas.
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-indigo-600 mb-4">
+                        <i data-feather="home" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Direito Civil</h3>
+                    <p class="text-gray-600">
+                        Contratos, responsabilidade civil, direitos do consumidor, família e sucessões, 
+                        indenizações e obrigações.
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-indigo-600 mb-4">
+                        <i data-feather="heart" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Direito Previdenciário</h3>
+                    <p class="text-gray-600">
+                        Aposentadorias, revisões de benefícios, auxílio-doença, pensão por morte e demais 
+                        questões relacionadas ao INSS.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="mb-20">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/3">
+                    <img src="http://static.photos/office/640x360/10" alt="Escritório" class="rounded-lg shadow-lg w-full">
+                </div>
+                <div class="md:w-2/3">
+                    <h2 class="text-3xl font-bold mb-6 text-indigo-700">Sobre o Advogado</h2>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        Ricardo Bitencourt é formado pela Universidade Federal do Paraná, com especialização em Direito 
+                        Civil e Processual Civil. Possui vasta experiência na defesa judicial e extrajudicial dos 
+                        interesses de seus clientes.
+                    </p>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        Membro ativo da OAB/PR, atua com ética, profissionalismo e dedicação, buscando sempre 
+                        a melhor solução para cada caso.
+                    </p>
+                    <div class="flex items-center gap-4 mt-6">
+                        <i data-feather="award" class="text-indigo-600"></i>
+                        <span class="text-gray-600">15+ anos de experiência</span>
+                    </div>
+                    <div class="flex items-center gap-4 mt-2">
+                        <i data-feather="user-check" class="text-indigo-600"></i>
+                        <span class="text-gray-600">Centenas de casos resolvidos</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+</main>
+    <!-- CONTACT SECTION -->
+    <section class="py-20 bg-stone-900 text-white">
+        <div class="container mx-auto px-4">
+            <div class="mb-10 w-full max-w-4xl mx-auto flex flex-col md:flex-row justify-center gap-8 text-center">
+                <a href="tel:+5541999999999" class="bg-stone-800 p-6 rounded-lg border border-stone-700 w-full hover:border-law-gold transition-colors block hover:bg-stone-700/50 group">
+                    <i data-feather="phone" class="mx-auto text-law-gold mb-2 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="text-stone-400 text-xs uppercase tracking-[0.2em] mb-2">Telefone</h3>
+                    <p class="text-xl font-bold group-hover:text-white transition-colors break-words">(41) 99999-9999</p>
+                </a>
+                <a href="mailto:contato@rbitencourt.com.br" class="bg-stone-800 p-6 rounded-lg border border-stone-700 w-full hover:border-law-gold transition-colors block hover:bg-stone-700/50 group">
+                    <i data-feather="mail" class="mx-auto text-law-gold mb-2 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="text-stone-400 text-xs uppercase tracking-[0.2em] mb-2">Email</h3>
+                    <p class="text-xl font-bold group-hover:text-white transition-colors break-all">contato@rbitencourt.com.br</p>
+                </a>
+            </div>
+
+            <div class="max-w-4xl mx-auto bg-stone-800 rounded-xl overflow-hidden shadow-2xl border border-stone-700 relative">
+                <div class="bg-law-blue py-4 text-center border-b border-white/5 shadow-md relative z-10">
+                    <h2 class="text-xl md:text-2xl font-serif font-bold text-law-gold uppercase tracking-widest drop-shadow-sm flex items-center justify-center gap-3">
+                        <i data-feather="map-pin" class="text-law-gold shrink-0" width="24"></i>
+                        Nosso Escritório
+                    </h2>
+                </div>
+                <div class="p-4 md:px-8 md:pt-8 md:pb-6 flex flex-col gap-8 bg-stone-800">
+                    <div class="text-center space-y-2">
+                        <p class="text-stone-400 text-sm md:text-base font-light italic">"Localização privilegiada no centro de Curitiba"</p>
+                        <p class="text-stone-100 font-bold text-lg md:text-xl">Av. República Argentina, 1000</p>
+                        <p class="text-stone-300 text-sm">Água Verde - Curitiba/PR</p>
+                    </div>
+                    <div class="w-full h-64 md:h-80 bg-stone-700 rounded-lg overflow-hidden border-4 border-stone-600 shadow-inner">
+                         <iframe 
+                           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.438824914432!2d-49.275259124406!3d-25.45345647753534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce472f8a95d1f%3A0x9e1e1e1e1e1e1e1e!2sAv.%20Rep%C3%BAblica%20Argentina%2C%201000%20-%20Curitiba%2C%20PR!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr"
+                           width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"
+                           title="Mapa do Escritório" class="w-full h-full grayscale-[50%] hover:grayscale-0 transition-all duration-500">
+                         </iframe>
+                    </div>
+                    
+                    <div class="flex flex-col items-center gap-6 mt-2">
+                        <a href="https://maps.app.goo.gl/example" target="_blank" rel="noopener noreferrer"
+                           class="inline-flex items-center justify-center gap-2 bg-law-gold hover:bg-white hover:text-law-blue text-white font-bold py-3 px-6 md:px-10 rounded-full shadow-lg transition-all hover:scale-105 uppercase tracking-wider border border-white/10 group text-center whitespace-normal max-w-full">
+                            <i data-feather="navigation" class="group-hover:animate-bounce shrink-0" width="20"></i>
+                            <span>Traçar Rota (Como Chegar)</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LEGAL SUB-FOOTER -->
+    <div class="bg-stone-950 border-t border-stone-900 py-6 text-xs text-stone-500">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-center md:justify-between items-center gap-4 text-center md:text-left">
+            <div>
+                &copy; <span id="year"></span> Ricardo Bitencourt Advocacia. OAB/PR 00.000.
+            </div>
+            <div class="flex flex-wrap justify-center gap-6 font-bold uppercase tracking-widest">
+                 <button onclick="toggleModal('modal-terms')" class="hover:text-law-gold transition-colors">Termos de Uso</button>
+                 <span class="text-stone-700 hidden md:inline">|</span>
+                 <button onclick="toggleModal('modal-privacy')" class="hover:text-law-gold transition-colors">Política de Privacidade</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- DEV FOOTER -->
+    <footer class="bg-black text-white py-3 border-t border-stone-800">
+        <div class="container mx-auto px-4 flex flex-wrap items-center justify-center gap-2">
+            <div class="text-stone-400 font-bold text-[9px] uppercase tracking-wide text-center">
+                Criado por <span class="text-law-gold">FCL</span>
+            </div>
+            <a href="https://wa.me/5551992496479?text=Ol%C3%A1%20Fernando.%20Gostaria%20de%20saber%20mais%20sobre%20cria%C3%A7%C3%A3o%20de%20sites." 
+               target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center gap-1 transition-all duration-300 hover:scale-110 group">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDjkkz_vlntJDY40iwAVZC60A5F5b6IwN5GpInCRMUiOo-kZ6ANNWSX1GG6sN7bYDKQmiD7P6n2fWaMBMlnSOOYLd3vItbVV4MJYff8ly1_P9mhagS_vdRYHBh5mrwYQdOrn0Yb5866Dz3uzghrVw3dOuk00FdKJHjBXVUaNLQoW7hJmy79HNkh6DVqmc/s1600/whatsapp1.png" 
+                     alt="WhatsApp" width="16" height="16" class="w-4 h-4">
+                <span class="text-[9px] font-bold text-stone-400 group-hover:text-[#25D366] uppercase tracking-wide">Contato</span>
+            </a>
+        </div>
+    </footer>
+
+    <!-- MODAIS -->
+    <div id="modal-terms" class="fixed inset-0 z-[100] flex items-center justify-center p-4 hidden">
+        <div class="absolute inset-0 bg-black/80 backdrop-blur-sm transition-opacity" onclick="toggleModal('modal-terms')"></div>
+        <div class="relative bg-white rounded-lg shadow-2xl w-full max-w-2xl max-h-[80vh] flex flex-col animate-fade-in-up">
+            <div class="p-6 border-b border-gray-100 flex justify-between items-center bg-stone-50 rounded-t-lg">
+                <h2 class="text-2xl font-bold text-law-blue">Termos de Uso</h2>
+                <button onclick="toggleModal('modal-terms')" class="text-gray-500 hover:text-red-500 transition-colors p-1"><i data-feather="x" width="24"></i></button>
+            </div>
+            <div class="p-6 overflow-y-auto whitespace-pre-line text-gray-700 leading-relaxed font-sans">
+                Este site tem caráter meramente informativo. O conteúdo não constitui consulta jurídica formal.
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-privacy" class="fixed inset-0 z-[100] flex items-center justify-center p-4 hidden">
+        <div class="absolute inset-0 bg-black/80 backdrop-blur-sm transition-opacity" onclick="toggleModal('modal-privacy')"></div>
+        <div class="relative bg-white rounded-lg shadow-2xl w-full max-w-2xl max-h-[80vh] flex flex-col animate-fade-in-up">
+            <div class="p-6 border-b border-gray-100 flex justify-between items-center bg-stone-50 rounded-t-lg">
+                <h2 class="text-2xl font-bold text-law-blue">Política de Privacidade</h2>
+                <button onclick="toggleModal('modal-privacy')" class="text-gray-500 hover:text-red-500 transition-colors p-1"><i data-feather="x" width="24"></i></button>
+            </div>
+            <div class="p-6 overflow-y-auto whitespace-pre-line text-gray-700 leading-relaxed font-sans">
+                Prezamos pelo sigilo e confidencialidade. Dados enviados não são compartilhados.
+            </div>
+        </div>
+    </div>
+<script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+<script src="https://huggingface.co/deepsite/deepsite-badge.js"></script>
+</body>
+</html>
